@@ -1,0 +1,96 @@
+/* Root theme colors */
+:root {
+  --primary: #ff4d6d;
+  --dark: #1a1a1a;
+  --light: #fff;
+  --accent: #ffb3c1;
+  --text-dark: #222;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #fff5f7;
+  color: var(--text-dark);
+}
+
+header {
+  background: var(--primary);
+  padding: 20px;
+  color: white;
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+nav {
+  background: var(--dark);
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: var(--accent);
+}
+
+.container {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+h2 {
+  color: var(--primary);
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 15px 0;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+button, .btn {
+  background: var(--primary);
+  padding: 12px 18px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+button:hover, .btn:hover {
+  opacity: 0.8;
+}
+
+input, textarea, select {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+footer {
+  background: var(--dark);
+  color: white;
+  padding: 15px;
+  text-align: center;
+  margin-top: 30px;
+}
